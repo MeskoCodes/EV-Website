@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <script src="https://unpkg.com/scrollreveal"></script>
+        
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+        <!--=============== REMIX ICONS ===============-->
+<link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+        <!--=============== SWIPER CSS ===============-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>MesCars</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+          <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <i class="ri-steering-line"></i>
+            MesCars</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Početna</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">O Nama</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#popular" class="nav__link">Popularno</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#featured" class="nav__link">Istaknuto</a>
+                    </li>
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-line"></i>
+            </div>
+          </nav>  
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home section" id="home">
+                <div class="shape shape__big"></div>
+                <div class="shape shape__small"></div>
+                <div class="home__container container grid">
+                    <div class="home__data">
+                     <h1 class="home__title">
+                        Birajte Samo Najbolje
+                     </h1>   
+                     <h2 class="home__subtitle">
+                        Porsche Mission E
+                     </h2>
+                     <h3 class="home__elec">
+                        <i class="ri-flashlight-fill"></i>Električno Auto
+                     </h3>
+                    </div>
+                    <img src="assets/img/home.png" alt="" class="home__img">
+
+                    <div class="home__car">
+                        <div class="home__car-data">
+                            <div class="home__car-icon">
+                                <i class="ri-temp-cold-line"></i>
+                            </div>
+                            <h2 class="home__car-number">28°C</h2>
+                            <h3 class="home__car-name">TEMPERATURA</h3>
+                        </div>
+
+                        <div class="home__car-data">
+                            <div class="home__car-icon">
+                                <i class="ri-dashboard-3-line"></i>
+                            </div>
+                            <h2 class="home__car-number">983</h2>
+                            <h3 class="home__car-name">KM</h3>
+                        </div>
+
+                        <div class="home__car-data">
+                            <div class="home__car-icon">
+                                <i class="ri-battery-2-charge-line"></i>
+                            </div>
+                            <h2 class="home__car-number">95%</h2>
+                            <h3 class="home__car-name">BATERIJA</h3>
+                        </div>
+                    </div>
+                    <a href="#" class="home__button">START</a>
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about">
+                <div class="about__container container grid">
+                    <div class="about__group">
+                        <img src="assets/img/about.png" alt="" class="about img">
+
+                        <div class="about__card">
+                            <h3 class="about__card-title">2.500+</h3>
+                           <p class="about__card-description">
+                            Superpunjača postavljenih duž popularnih puteva
+                           </p> 
+                        </div>
+                    </div>
+                    <div class="about__data">
+                        <h2 class="section__title about__title">
+                            Vozila sa <br> Tehnologijama Budućnosti
+                        </h2>
+                        <p class="about__description">
+                            Pogledajte budućnost sa električnim automobilima visokih performansi koje proizvode renomirani brendovi.
+                            Imaju futurističke konstrukcije i dizajne sa novim i inovativnim platformama koje traju dugo.
+                        </p>
+                        <a href="https://dealer.porsche.com/rs/beograd/sr-Latn-RS/Models/Taycan" class="button">Pogledaj Više</a>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== POPULAR ====================-->
+            <section class="popular section" id="popular">
+                <h2 class="section__title">
+                    Birajte svoj Električni Porsche
+                </h2>
+
+                <div class="popular__container container mySwiper">
+                    <div class="swiper-wrapper">
+                        <article class="popular__card swiper-slide">
+                            <div class="shape shape__smaller"></div> 
+
+                         <h1 class="popular__title">Porsche</h1>
+                         <h3 class="popular__subtitle">Turbo S</h3>
+
+                         <img src="assets/img/popular1.png" alt="" class="popular__img">
+
+                            <div class="popular__data">
+                                <div class="popular__data-group">
+                                    <i class="ri-dashboard-3-line"></i> 3.7 Sec
+                            </div>
+                            <div class="popular__data-group">
+                                <i class="ri-funds-box-line"></i> 355 KM/H
+                            </div>
+                            <div class="popular__data-group">
+                                <i class="ri-charging-pile-2-line"></i> Električni
+                            </div>
+                        </div>
+                        <h3 class="popular__price">$159.999</h3>
+                        <a href="https://configurator.porsche.com/en-US/model/Y1AFM1" class="btn">
+                            <button class="button popular__button">
+                                <i class="ri-shopping-bag-2-line"></i>
+                                </a>
+                        </article>
+
+                        <article class="popular__card swiper-slide">
+                            <div class="shape shape__smaller"></div>  
+                            <h1 class="popular__title">Porsche</h1>
+                            <h3 class="popular__subtitle">Taycan</h3>
+                            <img src="assets/img/popular2.png" alt="" class="popular__img">
+                           <div class="popular__data">
+                               <div class="popular__data-group">
+                                   <i class="ri-dashboard-3-line"></i> 3.2 Sec
+                               </div>
+                               <div class="popular__data-group">
+                                   <i class="ri-funds-box-line"></i> 385 KM/H
+                               </div>
+                               <div class="popular__data-group">
+                                   <i class="ri-charging-pile-2-line"></i> Električni
+                               </div>
+                           </div>
+                           <h3 class="popular__price">$169.999</h3>
+                           <a href="https://configurator.porsche.com/en-US/model/Y1AAI1" class="btn">
+                           <button class="button popular__button">
+                               <i class="ri-shopping-bag-2-line"></i>
+                               </a>
+                           </button>
+                           </article>
+
+                           <article class="popular__card swiper-slide">
+                            <div class="shape shape__smaller"></div>  
+                            <h1 class="popular__title">Porsche</h1>
+                            <h3 class="popular__subtitle">Turbo S Cross</h3>
+                            <img src="assets/img/popular3.png" alt="" class="popular__img">
+                           <div class="popular__data">
+                               <div class="popular__data-group">
+                                   <i class="ri-dashboard-3-line"></i> 3.3 Sec
+                               </div>
+                               <div class="popular__data-group">
+                                   <i class="ri-funds-box-line"></i> 365 KM/H
+                               </div>
+                               <div class="popular__data-group">
+                                   <i class="ri-charging-pile-2-line"></i> Elektricni
+                               </div>
+                           </div>
+                           <h3 class="popular__price">$155.999</h3>
+                           <a href="https://configurator.porsche.com/en-US/model/Y1BFM1" class="btn">
+                           <button class="button popular__button">
+                               <i class="ri-shopping-bag-2-line"></i>
+                               </button>
+                        </a>
+                           </article>
+
+                           <article class="popular__card swiper-slide">
+                            <div class="shape shape__smaller"></div>  
+                            <h1 class="popular__title">Porsche</h1>
+                            <h3 class="popular__subtitle">Taycan Cross Turismo</h3>
+                            <img src="assets/img/popular4.png" alt="" class="popular__img">
+                           <div class="popular__data">
+                               <div class="popular__data-group">
+                                   <i class="ri-dashboard-3-line"></i> 3.9 Sec
+                               </div>
+                               <div class="popular__data-group">
+                                   <i class="ri-funds-box-line"></i> 345 KM/H
+                               </div>
+                               <div class="popular__data-group">
+                                <i class="ri-charging-pile-2-line"></i> Električni
+                               </div>
+                           </div>
+                           <h3 class="popular__price">$189.990</h3>
+                           <a href="https://configurator.porsche.com/en-US/model/Y1BBN1" class="btn">
+                            <button class="button popular__button">
+                                <i class="ri-shopping-bag-2-line"></i>
+                                </a>
+                           </article>
+
+                           <article class="popular__card swiper-slide ">
+                            <div class="shape shape__smaller"></div>  
+                            <h1 class="popular__title">Porsche</h1>
+                            <h3 class="popular__subtitle">Macan Turbo</h3>
+                            <img src="assets/img/popular5.png" alt="" class="popular__img">
+                           <div class="popular__data">
+                               <div class="popular__data-group">
+                                   <i class="ri-dashboard-3-line"></i> 3.8 Sec
+                               </div>
+                               <div class="popular__data-group">
+                                   <i class="ri-funds-box-line"></i> 330 KM/H
+                               </div>
+                               <div class="popular__data-group">
+                                <i class="ri-charging-pile-2-line"></i> Električni
+                               </div>
+                           </div>
+                           <h3 class="popular__price">$139.999</h3>
+                           <a href="https://configurator.porsche.com/en-US/model/XABBB1" class="btn">
+                            <button class="button popular__button">
+                                <i class="ri-shopping-bag-2-line"></i>
+                                </a>
+                           </article>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>
+
+            <!--==================== FEATURES ====================-->
+            <section class="features section">
+                <h2 class="section__title">
+                    Više Karakteristika
+                </h2>
+
+                <div class="features__container container grid">
+                    <div class="features__group">
+                        <img src="assets/img/features.png" alt="" class="features__img">
+
+                        <div class="features__card features__card-1">
+                            <h3 class="features__card-title">800V</h3>
+                            <p class="features__card-description">Turbo <br> Punjenja </p>
+                        </div>
+
+                        <div class="features__card features__card-2">
+                            <h3 class="features__card-title">350 KM/H</h3>
+                            <p class="features__card-description">Max. Brzine</p>
+                        </div>
+
+                        <div class="features__card features__card-3">
+                            <h3 class="features__card-title">480KM</h3>
+                            <p class="features__card-description"> Dužine <br> Putovanja</p>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <img src="assets/img/map.svg" alt="" class="features__map">
+            </section>
+
+            <!--==================== FEATURED ====================-->
+            <section class="featured section" id="featured">
+                <h2 class="section__title">Istaknuta Luksuzna Auta</h2>
+
+                <div class="featured__container">
+                    <ul class="featured__filters">
+                        <li>
+                            <button class="featured__item active-featured" data-filter="all">
+                                <span>Sve</span>
+                            </button>
+                        </li>
+                        <li>
+                            <button class="featured__item" data-filter=".porsche">
+                                <img src="assets/img/logo1.png" alt="">
+                            </button>
+                        </li>
+
+                        <li>
+                            <button class="featured__item" data-filter=".audi">
+                                <img src="assets/img/logo2.png" alt="">
+                            </button>
+                        </li>
+
+                        <li>
+                            <button class="featured__item" data-filter=".lambo">
+                                <img src="assets/img/logo3.png" alt="">
+                            </button>
+                        </li>
+                    </ul>
+
+                    <div class="featured__content grid">
+
+
+                    <article class="featured__card mix lambo">
+                        <div class="shape shape__smaller"></div>
+                        <h1 class="featured__title">Lamborghini </h1>
+                        <h3 class="featured__subtitle">Huracan</h3>
+                        <img src="assets/img/featured1.png" alt=""  class="featured__img">
+                        <h3 class="featured__price">$239.000</h3>
+
+                        <button class="button featured__button">
+                            <i class="ri-shopping-bag-2-line"></i>
+                        </button>
+                    </article>
+
+                    <article class="featured__card mix lambo">
+                        <div class="shape shape__smaller"></div>
+                        <h1 class="featured__title">Lamborghini</h1>
+                        <h3 class="featured__subtitle">Urus</h3>
+                        <img src="assets/img/featured2.png" alt=""  class="featured__img">
+                        <h3 class="featured__price">$249.000</h3>
+
+                        <button class="button featured__button">
+                            <i class="ri-shopping-bag-2-line"></i>
+                        </button>
+                    </article>
+
+
+                    <article class="featured__card mix audi">
+                        <div class="shape shape__smaller"></div>
+                        <h1 class="featured__title">Audi</h1>
+                        <h3 class="featured__subtitle">R8</h3>
+                        <img src="assets/img/featured3.png" alt=""  class="featured__img">
+                        <h3 class="featured__price">$219.000</h3>
+
+                        <button class="button featured__button">
+                            <i class="ri-shopping-bag-2-line"></i>
+                        </button>
+                    </article>
+                    <article class="featured__card mix audi">
+                        <div class="shape shape__smaller"></div>
+                        <h1 class="featured__title">Audi</h1>
+                        <h3 class="featured__subtitle">E-Tron GT</h3>
+                        <img src="assets/img/featured4.png" alt=""  class="featured__img">
+                        <h3 class="featured__price">$119.999</h3>
+
+                        <button class="button featured__button">
+                            <i class="ri-shopping-bag-2-line"></i>
+                        </button>
+                    </article>
+
+                    <article class="featured__card mix porsche">
+                        <div class="shape shape__smaller"></div>
+                        <h1 class="featured__title">Porsche</h1>
+                        <h3 class="featured__subtitle">Panamera</h3>
+                        <img src="assets/img/featured5.png" alt=""  class="featured__img">
+                        <h3 class="featured__price">$218.999</h3>
+
+                        <button class="button featured__button">
+                            <i class="ri-shopping-bag-2-line"></i>
+                        </button>
+                    </article>
+
+                    <article class="featured__card mix porsche">
+                        <div class="shape shape__smaller"></div>
+                        <h1 class="featured__title">Porsche</h1>
+                        <h3 class="featured__subtitle">911 GT3</h3>
+                        <img src="assets/img/featured6.png" alt=""  class="featured__img">
+                        <h3 class="featured__price">$198.999</h3>
+
+                        <button class="button featured__button">
+                            <i class="ri-shopping-bag-2-line"></i>
+                        </button>
+                    </article>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== OFFER ====================-->
+            <section class="offer section">
+              <div class="offer__container container grid">
+                <img src="assets/img/offer-bg.png" alt="" class="offer__bg">
+                
+                <div class="offer__data">
+                    <h2 class="section__title offer__title">
+                        Zelite li dobijati <br> Specijalne Ponude?
+                    </h2>
+
+                    <p class="offer__description">
+                        Budite prvi koji će dobiti sve informacije o našim proizvodima 
+                        i novim automobilima putem e-maila tako što ćete se pretplatiti 
+                        na našu mailing listu.
+                    </p>
+
+                    <a href="#" class="button">
+                        Pretplatite se sada
+                    </a>
+                </div>
+                        <img src="assets/img/offer.png" alt="" class="offer__img">
+            </div>  
+            </section>
+
+            <!--==================== LOGOS ====================-->
+            <section class="logos section">
+                    <div class="logos__container container grid">
+                        <div class="logos__content">
+                            <img src="assets/img/logo1.png" alt="" class="logos__img">
+                        </div>
+
+                        <div class="logos__content">
+                            <img src="assets/img/logo2.png" alt="" class="logos__img">
+                        </div>
+
+                        <div class="logos__content">
+                            <img src="assets/img/logo3.png" alt="" class="logos__img">
+                        </div>
+
+                        <div class="logos__content">
+                            <img src="assets/img/logo4.png" alt="" class="logos__img">
+                        </div>
+
+                        <div class="logos__content">
+                            <img src="assets/img/logo5.png" alt="" class="logos__img">
+                        </div>
+
+                        <div class="logos__content">
+                            <img src="assets/img/logo6.png" alt="" class="logos__img">
+                        </div>
+                    </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="shape shape__big"></div>
+            <div class="shape shape__small"></div>
+            <div class="footer__container container grid">
+                <div class="footer__content">
+                    <a href="#" class="footer__logo">
+                        <i class="ri-steering-line"></i> MesCars
+                    </a>
+                    <p class="footer__description">
+                        Nudimo najbolje električne automobile <br> 
+                        najpoznatijih brendova na svetu.
+                    </p>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title"> Firma
+                    </h3>
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link"> O nama</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Auta</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Istorija</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Gdje Kupiti</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title"> Informacije
+                    </h3>
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Zatražite ponudu</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Pronadjite Prodavaoca</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Kontaktirajte Nas</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Usluge</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__content">
+                    <h3 class="footer__title"> Pratite Nas
+                    </h3>
+                    <ul class="footer__social">
+                        <li>
+                            <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                                <i class="ri-facebook-fill"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.x.com/" target="_blank" class="footer__social-link">
+                                <i class="ri-twitter-x-line"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.tiktok.com/" target="_blank" class="footer__social-link">
+                                <i class="ri-tiktok-fill"></i>
+                            </a>
+                        </li>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <span class="footer__copy">
+                &#169; MesCars. All Rights Reserved
+            </span>
+        </footer>
+
+
+        <!--========== SCROLL UP ==========-->
+
+<a href="#" class="scrollup" id="scroll-up">
+    <i class="ri-arrow-up-double-line"></i>
+</a>
+        <!--=============== SCROLL REVEAL ===============-->
+        <script src=""></script>
+
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--=============== MIXITUP JS ===============-->
+        <script src="assets/js/mixitup.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
